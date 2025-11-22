@@ -1,12 +1,8 @@
-# Main Application
+# Main application entry point
 
-# Importing required libraries
 import amhisr_search
+import font_config
 
-# Main function
-def main():
-    print("Welcome to the Amharic Information Storage and Retrieval System!")
-    amhisr_search.run()
 
 if __name__ == '__main__':
-    main()
+    amhisr_search.run()
